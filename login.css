@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyLogin {
+    width: 100%;
+    height: 100vh;
+    background: #d1c9c9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLogin {
+    width: 90%;
+    max-width: 700px;
+    height: 480px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.header_boxLogin {
+    width: 100%;
+    height: 20%;
+    font-size: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+
+}
+
+.bbody_boxLogin {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgLogin {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 90%;
+}
+
+.cardWonLon {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(40, 109, 109); */
+
+}
+
+form {
+    /* background-color: blueviolet; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+form input[type=submit] {
+    max-width: 200px;
+    margin-top: 70px;
+    border-radius: 19px;
+    padding: 10px;
+    background-color: #72a1a7;
+    border: none;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 80%;
+    height: 45px;
+    border: 2px solid #cc9da8;
+    margin-top: 70px;
+    border-radius: 19px;
+    padding-left: 10px;
+}
